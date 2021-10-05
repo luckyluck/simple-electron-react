@@ -27,6 +27,9 @@ module.exports = {
     ],
   },
   target: 'electron-renderer',
+  resolve: {
+    extensions: ['.js', '.jsx'],
+  },
   plugins: [
     new HtmlWebpackPlugin({ template: './public/index.html' }),
     new webpack.DefinePlugin({
