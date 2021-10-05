@@ -5,7 +5,7 @@
   "description": "Simple boilerplate for building Electron apps with React",
   "license": "MIT",
   "engines": {
-    "node": ">=9.0.0",
+    "node": ">=12.0.0",
     "npm": ">=5.0.0",
     "yarn": ">=1.0.0"
   },
@@ -21,26 +21,25 @@
     "postpackage": "electron-packager ./ --out=./release-builds"
   },
   "dependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.6",
-    "@babel/preset-env": "^7.9.6",
-    "@babel/preset-react": "^7.9.4",
-    "babel-loader": "^8.1.0",
-    "babili-webpack-plugin": "^0.1.2",
-    "cross-env": "^7.0.2",
-    "css-loader": "^3.5.3",
-    "electron": "^9.0.0",
-    "electron-devtools-installer": "^3.0.0",
-    "electron-packager": "^14.2.1",
-    "file-loader": "^6.0.0",
-    "html-webpack-plugin": "^4.3.0",
-    "mini-css-extract-plugin": "^0.9.0",
-    "style-loader": "^1.2.0",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3"
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.3.0",
+    "electron": "^15.1.1",
+    "electron-devtools-installer": "^3.2.0",
+    "electron-packager": "^15.4.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.3.0",
+    "style-loader": "^3.3.0",
+    "webpack": "^5.56.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.3.1"
   }
 }
